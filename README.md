@@ -29,13 +29,13 @@
 
 ---
 
-| Command            | Description                     |
-| ------------------ | ------------------------------- |
-| `npm start`        | Serve @ `http://localhost:8080` |
-| `npm run build`    | Build app to `/dist/`           |
-| `npm run test`     | Run tests                       |
-| `npm run lint`     | Run linter                      |
-| `npm run lint:fix` | Run linter and fix issues       |
-| `npm run format`   | Run prettier                    |
+| Command                | Description                     |
+| ---------------------- | ------------------------------- |
+| `npm start`            | Serve @ `http://localhost:8080` |
+| `npm run build`        | Build app to `/dist/`           |
+| `npm run cypress:open` | Run cypress                     |
+| `npm run lint`         | Run linter                      |
+| `npm run lint:fix`     | Run linter and fix issues       |
+| `npm run format`       | Run prettier                    |
 
 **Note**: replace `npm` with `yarn` in `package.json` if you use npm.
